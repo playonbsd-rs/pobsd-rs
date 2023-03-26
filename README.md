@@ -1,3 +1,6 @@
+[![Build](https://github.com/playonbsd-rs/pobsd-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/playonbsd-rs/pobsd-rs/actions/workflows/rust.yml)
+[![Clippy](https://github.com/playonbsd-rs/pobsd-rs/actions/workflows/rust-clippy.yml/badge.svg)](https://github.com/playonbsd-rs/pobsd-rs/actions/workflows/rust-clippy.yml)
+[![Crates.io (latest)](https://img.shields.io/crates/v/pobsd?style=flat)](https://crates.io/crates/pobsd)
 
 ## pobsd
 pobsd is a TUI written in Rust designed to browse the PlayOnBSD
