@@ -1,6 +1,21 @@
-[workspace]
+[package]
+name = "pobsd"
+description = "Simple TUI to browse the PlayOnBSD database"
+version = "0.2.0"
+edition = "2021"
+authors = ["Hukadan <me@hukadan.org>"]
+homepage = "https://github.com/Hukadan/pobsd-rs"
+license = "MIT"
+readme = "README.md"
+keywords = ["OpenBSD", "PlayOnBSD"]
 
-members = [
-  "pobsd-parser",
-  "pobsd"
-]
+[dependencies]
+tui = "0.19"
+crossterm = "0.26"
+serde = "1"
+serde_json = "1"
+serde_derive = "1"
+clap = "4"
+unveil = "0.3"
+pledge = "0.4"
+pobsd-parser = "0.2"
